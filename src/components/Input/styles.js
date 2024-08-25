@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const InputContainer = styled.div`
     width: 100%;
@@ -16,14 +16,14 @@ export const InputContainer = styled.div`
     input {
         width: 100%;
         height: 75px;
-        background-color: #AAAAFF;
+        background-color: grey;
         border: 0;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         padding: 0 10px;
-        font-size: 24px;
-        font-family: 'Roboto';
-        color: #FFFFFF;
+        font-size: 35px;
+        font-weight: bold;
+        color: black;
     }
-`
+`;
